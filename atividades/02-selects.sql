@@ -8,4 +8,7 @@ SELECT nome, cor FROM esmaltes
 WHERE tipo = 'cremoso';
 
 SELECT nome, cor FROM esmaltes
+WHERE tipo = 'glitter';
+
+SELECT nome, cor FROM esmaltes
 WHERE id = 3;
