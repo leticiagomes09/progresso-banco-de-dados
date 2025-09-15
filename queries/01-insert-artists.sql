@@ -12,4 +12,11 @@ CREATE TABLE artistas (
 
 INSERT INTO artistas (nome, tipo, membros, genero_musical, pais_origem, ano_inicio, musica_mais_ouvida, ativo)
 VALUES 
-('BTS', 'Banda', 7, 'K-pop', 'Coreia do Sul', 2013, 'Butter', TRUE);
+('BTS', 'Banda', 7, 'K-pop', 'Coreia do Sul', 2013, 'Butter', TRUE),
+('Taylor Swift', 'Solo', 1, 'Pop', 'USA', 2006, 'Shake It Off', TRUE),
+('Queen', 'Banda', 4, 'Rock', 'Reino Unido', 1973, 'Bohemian Rhapsody', TRUE),
+('Ed Sheeran', 'Solo', 1, 'Pop', 'Reino Unido', 2011, 'Shape of You');
+
+SELECT * FROM artistas;
+
+SELECT COUNT(*) AS total_artistas FROM artistas;
