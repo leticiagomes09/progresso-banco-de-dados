@@ -20,5 +20,5 @@ VALUES
     ('Lágrima de Vênus', 'Risqué', 'Metálico', 6.50, 'Nude'),
     ('Bala de Goma', 'Dailus', 'Cremoso', 8.99, 'Rosa')
 
-SELECT * FROM esmaltes;
+
 
